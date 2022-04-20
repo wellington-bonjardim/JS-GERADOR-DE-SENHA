@@ -1,0 +1,116 @@
+/*=============== RESET ===============*/
+* {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/*=============== BODY ===============*/
+body {
+    background-color: #18181B;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+/*=============== MAIN ===============*/
+.container-input {
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span {
+    color: #FFF;
+    font-size: 22px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    width: 100%;
+    background: #DFDFDF;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+}
+
+.button-cta {
+    height: 40px;
+    background-color: #3EB72B;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*=============== CONTAINER-PASSWORD HIDE ===============*/
+.container-password {
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #313131;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.password:hover {
+    transform: scale(1.05); /*a área aumenta em 5%*/
+    background-color: #3EB72B;
+    font-weight: bold;
+}
+
+.tooltip {
+    color: #FFF;
+    position: relative;
+    background-color: rgba(15, 15, 15);
+    top: 20PX;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 16px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-password:hover .tooltip {
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
