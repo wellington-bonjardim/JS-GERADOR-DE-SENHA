@@ -19,7 +19,7 @@ Neste projeto, o usuário é capaz de gerar senhas aleatórias de 5 à 25 caract
 
 #### Copiando a senha gerada: 
 
-![Web copiar_senha](https://github.com/wellington-bonjardim/projeto-gerador-de-senha/blob/master/assets/copiar_senha.PNG)
+![Web copiar_senha](https://github.com/wellington-bonjardim/projeto-gerador-de-senha/blob/master/assets/copiarsenha.PNG)
 
 # Tecnologias utilizadas
 
